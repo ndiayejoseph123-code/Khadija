@@ -1,0 +1,7 @@
+[build]
+  functions = "netlify/functions"
+
+# Le cron tourne toutes les 5 minutes. Passe à "* * * * *" (toutes les minutes)
+# si tu veux plus de précision, mais 5 min suffit pour des rappels/messages.
+[functions."scheduled-check"]
+  schedule = "*/5 * * * *"

@@ -1,0 +1,9 @@
+{
+  "name": "telegram-automation-bot",
+  "version": "1.0.0",
+  "private": true,
+  "description": "Bot Telegram programmable en langage naturel, backend Netlify Functions + Mistral AI",
+  "dependencies": {
+    "@netlify/blobs": "^7.0.0"
+  }
+}
